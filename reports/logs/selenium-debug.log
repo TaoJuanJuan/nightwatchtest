@@ -1,0 +1,39 @@
+13:43:09.647 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to bin/chromedriver.exe
+Setting system property webdriver.ie.driver to bin/IEDriverServer_win_64.exe
+13:43:09.757 INFO - Java: Oracle Corporation 24.71-b01
+13:43:09.757 INFO - OS: Windows 8.1 6.3 amd64
+13:43:09.770 INFO - v2.52.0, with Core v2.52.0. Built from revision 4c2593c
+13:43:09.837 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:43:09.837 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+13:43:09.847 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{platform=MAC, browserName=safari, version=}] does not match the current platform WIN8_1
+13:43:10.040 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+13:43:10.040 INFO - Selenium Server is up and running
+13:43:11.088 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Test1}]])
+13:43:11.099 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Test1}]
+13:43:14.354 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Test1}]]
+13:43:14.368 INFO - Executing: [get: https://www.baidu.com/])
+13:43:15.613 INFO - Done: [get: https://www.baidu.com/]
+13:43:16.627 INFO - Executing: [find elements: By.cssSelector: body])
+13:43:16.685 INFO - Done: [find elements: By.cssSelector: body]
+13:43:16.688 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on WINDOWS (ffeeecaa-0417-4edd-9ac1-70fddb16c351)] -> css selector: body]])
+13:43:16.697 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on WINDOWS (ffeeecaa-0417-4edd-9ac1-70fddb16c351)] -> css selector: body]]
+13:43:16.701 INFO - Executing: [take screenshot])
+13:43:16.761 INFO - Done: [take screenshot]
+13:43:16.771 INFO - Executing: [find element: By.cssSelector: input[id=kw]])
+13:43:16.780 INFO - Done: [find element: By.cssSelector: input[id=kw]]
+13:43:16.784 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on WINDOWS (ffeeecaa-0417-4edd-9ac1-70fddb16c351)] -> css selector: input[id=kw]], [n, i, g, h, t, w, a, t, c, h]])
+13:43:16.947 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on WINDOWS (ffeeecaa-0417-4edd-9ac1-70fddb16c351)] -> css selector: input[id=kw]], [n, i, g, h, t, w, a, t, c, h]]
+13:43:17.960 INFO - Executing: [find elements: By.cssSelector: input[id=su]])
+13:43:17.978 INFO - Done: [find elements: By.cssSelector: input[id=su]]
+13:43:17.983 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on WINDOWS (ffeeecaa-0417-4edd-9ac1-70fddb16c351)] -> css selector: input[id=su]]])
+13:43:18.001 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on WINDOWS (ffeeecaa-0417-4edd-9ac1-70fddb16c351)] -> css selector: input[id=su]]]
+13:43:18.005 INFO - Executing: [find element: By.cssSelector: input[id=su]])
+13:43:18.013 INFO - Done: [find element: By.cssSelector: input[id=su]]
+13:43:18.018 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on WINDOWS (ffeeecaa-0417-4edd-9ac1-70fddb16c351)] -> css selector: input[id=su]]])
+13:43:18.116 INFO - Done: [click: 2 [[FirefoxDriver: firefox on WINDOWS (ffeeecaa-0417-4edd-9ac1-70fddb16c351)] -> css selector: input[id=su]]]
+13:43:19.120 INFO - Executing: [take screenshot])
+13:43:19.419 INFO - Done: [take screenshot]
+13:43:19.478 INFO - Executing: [delete session: d2c822f7-5daf-40d3-9ce9-a4693700cee6])
+13:43:20.041 INFO - Done: [delete session: d2c822f7-5daf-40d3-9ce9-a4693700cee6]
