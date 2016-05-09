@@ -18,7 +18,6 @@ module.exports = {
         testChildObj.waitForElement('input[id=su]');
         testChildObj.click('input[id=su]');
         testChildObj.takeScreenshots('SearchResult');
-
         testChildObj.closeWindow();
         /*browser
             .url('')
